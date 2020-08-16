@@ -1,0 +1,419 @@
+.loaderAnimation{
+
+    width: 180px;
+    height: 180px;
+
+}
+.topFixedBanner{
+
+    background-image:url("../images/banner.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+.topBannerOverlay{
+
+    position: absolute;
+    min-height: 500px;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+
+}
+.topContent{
+    margin: 10rem;
+}
+.topPageContentCourse{
+    margin: 4rem;
+}
+.courseFUllTitle{
+    font-family: 'Raleway',sans-serif;
+    font-weight:600;
+    color: #ffffff;
+    font-size:28px;
+
+}
+.courseSubTitle{
+    font-family: 'Raleway',sans-serif;
+    font-weight:400;
+    color: #ffffff;
+    font-size:16px;
+
+}
+.courseDes{
+    font-family: 'Raleway',sans-serif;
+    font-weight:300;
+    color: #ffffff;
+    font-size:14px;
+
+}
+.topTitle{
+    font-family: 'Montserrat',sans-serif;
+    font-weight:700;
+    color: #ffffff;
+    font-size:48px;
+}
+.topSubTitle{
+    font-family: 'Raleway',sans-serif;
+    font-weight:600;
+    color: #ffffff;
+    font-size:22px;
+}
+.serviceName{
+    font-family: 'Raleway',sans-serif;
+    margin-top: 1rem;
+    font-size: 22px;
+    font-weight: 600;
+}
+.serviceDescription{
+
+    font-family: 'Raleway',sans-serif;
+    margin-top: 1rem;
+    font-size: 14px;
+    font-weight: 400;
+    color: #7F7E7E;
+}
+.serviceCard{
+
+    margin: 5px 5px 5px 5px;
+    height: 22rem;
+    padding: 60px 30px 60px 30px;
+    box-shadow:0 0 8px 0 rgba(0,115,230,0.2);
+
+}
+.serviceCard:hover{
+
+    box-shadow:0 0 16px 0 rgba(0,115,230,0.2);
+
+}
+.serviceMainTitle{
+
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    color: #4c9DED;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+
+}
+.navTitle{
+    color: #ffffff!important;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+.navTitle:hover{
+
+    text-decoration: none;
+
+}
+.navTitleScroll{
+    color: #4c9DED!important;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+.navTitleScroll:hover{
+
+    text-decoration: none;
+
+}
+.navBarBackground{
+
+    -webkit-transition:background-color 400ms linear;
+    -moz-transition:background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+/*//transparent*/
+    background-color:rgba(00,00,00,0.0)!important;
+
+
+}
+.navBarBackgroundScroll{
+
+    -webkit-transition:background-color 400ms linear;
+    -moz-transition:background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+
+    background-color:#f2f2f2!important;
+    box-shadow: 0 0 6px 0 rgba(0,115,230,0.3);
+}
+.navItem{
+
+    text-decoration: none!important;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+}
+.navItemScroll{
+
+    text-decoration: none!important;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    color: #000000!important;
+    font-size: 16px;
+}
+.des{
+
+    font-weight: 400;
+    color: #000000;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+
+}
+.SummarySection{
+
+    margin-top:4rem;
+}
+
+.summaryFixedBanner{
+
+    background-image:url("../images/banner.jpg");
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+
+}
+.summaryBannerOverlay{
+
+    position: absolute;
+    min-height: 350px;
+    width: 100%;
+    background: rgb(0,0,0,0.6);
+
+}
+.countNumber{
+
+    color: #ffffff;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+}
+.countTitle{
+    color: #ffffff;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+.countSection{
+
+    margin-top: 16%;
+}
+.cardTitle{
+
+    color: #000000;
+    font-size: 22px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+
+}
+.cardSubTitle{
+
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+}
+.iconBullet{
+    color: #0073E6;
+    font-size: 16px;
+}
+.workCard{
+
+    padding: 10px;
+    margin-top: 14%;
+    border-radius:2px;
+}
+.projectCard{
+
+    border-radius: 2px;
+    border: none!important;
+    margin:2px;
+    box-shadow:0 0 8px 0 rgba(0,115,230,0.2);
+
+}
+.projectCard:hover{
+
+    box-shadow:0 0 16px 0 rgba(0,115,230,0.2);
+
+}
+.projectCardTitle{
+
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.projectCardDes{
+
+    font-family: 'Raleway',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.courseImg{
+     width: 100%;
+ }
+.courseTitle{
+
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.courseDes{
+
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color:#7F7E7E;
+}
+.videoCard{
+
+    box-shadow:0 0 4px 0 rgba(0,115,230,0.2);
+    padding: 6rem 3rem 6rem 3rem;
+    background-color: #ffffff;
+    margin:50px auto;
+}
+.playBtn{
+
+
+    font-size: 48px;
+    color: #0073E6;
+    cursor: pointer;
+}
+.videoTitle{
+
+    color: #0073E6;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.videoDes{
+
+
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.circleImg{
+
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 1px solid #0073E6;
+}
+.footerSection{
+
+    box-shadow:0 0 4px 0 rgba(0,115,230,0.2);
+    margin-top: 5rem;
+}
+.socialLink{
+
+    text-decoration: none;
+    color: #0073E6;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.socialLink:hover{
+
+    text-decoration: none;
+    color: #000000;
+
+}
+.footerLink{
+    text-decoration: none;
+    color: #7F7E7E;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.footerLink:hover{
+    text-decoration: none;
+    color: #0073E6;
+
+}
+.copyRightSection{
+
+
+    padding: 20px;
+    background-color:#0073E6;
+
+}
+
+.copyRightLink{
+
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.copyRightLink:hover{
+
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.topFixedPage{
+
+    background-image:url("../images/banner.jpg");
+    min-height: 280px;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+.topPageOverlay{
+
+    position: absolute;
+    min-height: 280px;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+
+}
+.topPageContent{
+    margin: 8rem;
+}
+.topPageTitle{
+    font-family: 'Raleway',sans-serif;
+    font-weight:600;
+    color: #ffffff;
+    font-size:28px;
+}
+.form-control:focus{
+
+    border-radius: 2px!important;
+    border-color:#0073E6!important;
+    box-shadow:0 0 4px 0 rgba(0,115,230,0.2)!important;
+
+}
+.link-style{
+
+    color: white!important;
+    text-decoration: none!important;
+}
+
+.link-style:hover{
+
+    color: white!important;
+    text-decoration: none!important;
+}
+
